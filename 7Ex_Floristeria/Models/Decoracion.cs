@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace _7Ex_Floristeria.Models
 {
-    class Decoracion
+    class Decoracion : Elements
     {
+        private readonly Material _material;
+        public Decoracion(Material material, double precio) 
+        {
+
+            this._material = material;
+            base.setPrecio(precio);
+        
+        }
+
     }
 }

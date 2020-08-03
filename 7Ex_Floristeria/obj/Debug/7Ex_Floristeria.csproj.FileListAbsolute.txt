@@ -1,0 +1,15 @@
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\bin\Debug\7Ex_Floristeria.exe.config
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\bin\Debug\7Ex_Floristeria.exe
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\bin\Debug\7Ex_Floristeria.pdb
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.csprojAssemblyReference.cache
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\MainWindow.g.cs
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\App.g.cs
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria_MarkupCompile.cache
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria_MarkupCompile.lref
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\MainWindow.baml
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.g.resources
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\_7Ex_Floristeria.Properties.Resources.resources
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.csproj.GenerateResource.cache
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.csproj.CoreCompileInputs.cache
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.exe
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.pdb

@@ -10,6 +10,7 @@ namespace _7Ex_Floristeria.Components
     {
 
         double getPrecio();
+        void setPrecio(double precio);
 
     }
 }
