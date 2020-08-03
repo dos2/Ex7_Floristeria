@@ -16,6 +16,9 @@ namespace _7Ex_Floristeria.Models
             base.setPrecio(precio);
         
         }
-
+        public Material getMaterial()
+        {
+            return _material;
+        }
     }
 }

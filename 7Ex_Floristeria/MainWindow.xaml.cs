@@ -25,7 +25,8 @@ namespace _7Ex_Floristeria
         public MainWindow()
         {
             InitializeComponent();
-            Decoracion deco = new Decoracion(Elements.Material.Madera, 12);
+            Decoracion deco = new Decoracion(Elements.Material.Plastico, 12);
+            Console.WriteLine("Material: {0} Precio: {1}", deco.getMaterial().ToString(), deco.getPrecio());
         }
     }
 }
