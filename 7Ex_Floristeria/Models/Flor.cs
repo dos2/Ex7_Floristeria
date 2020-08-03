@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _7Ex_Floristeria.Models
 {
-    class Flor
+    class flor
     {
     }
 }
