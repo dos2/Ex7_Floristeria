@@ -63,7 +63,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Modelos\Arbol.cs" />
+    <Compile Include="Components\Iprecio.cs" />
+    <Compile Include="Models\Arbol.cs" />
     <Compile Include="ClasePrueba.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
