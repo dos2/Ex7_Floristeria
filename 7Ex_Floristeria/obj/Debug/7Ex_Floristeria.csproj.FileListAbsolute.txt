@@ -13,3 +13,5 @@ C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floris
 C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.csproj.CoreCompileInputs.cache
 C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.exe
 C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\7Ex_Floristeria.pdb
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\InputCreateFloristeria.g.cs
+C:\Users\arkar\source\repos\Ex7_Floristeria\7Ex_Floristeria\obj\Debug\InputCreateFloristeria.baml

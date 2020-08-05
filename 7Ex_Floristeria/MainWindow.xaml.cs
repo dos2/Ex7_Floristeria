@@ -25,8 +25,14 @@ namespace _7Ex_Floristeria
         public MainWindow()
         {
             InitializeComponent();
+            InputFloristeria dialogBox = new InputFloristeria();
+            dialogBox.ShowDialog();
+            string nameFromdialogBox = InputFloristeria.myValue;
+            nombreEmpresa.Content = nameFromdialogBox;
+
             Decoracion deco = new Decoracion(Elements.Material.Plastico, 12);
             Console.WriteLine("Material: {0} Precio: {1}", deco.getMaterial().ToString(), deco.getPrecio());
+            Console.WriteLine(nameFromdialogBox);
         }
     }
 }
