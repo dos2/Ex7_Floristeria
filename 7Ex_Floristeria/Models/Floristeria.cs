@@ -8,5 +8,44 @@ namespace _7Ex_Floristeria.Models
 {
     class floristeria
     {
+        private string nombre;
+        private List<Arbol> listArbol;
+        private int nArbol=0;
+        private List<Flor> listFlor;
+        private int nFlor = 0;
+        private List<Decoracion> listDecoracion;
+        private int nDecoracion = 0;
+
+
+        public floristeria(string nombre)
+        {
+            this.nombre = nombre;
+        }
+
+        public string NOMBRE
+        {
+            set => this.nombre = value;
+            get => this.nombre;
+        }
+
+
+
+        public void addArbol(double altura, double precio)
+        {
+            listArbol.Add(new Arbol(altura, precio));
+            nArbol++;
+        }
+
+        public void addFlor(string color, double precio)
+        {
+            listFlor.Add(new Flor(color, precio));
+            nFlor++;
+        }
+
+        public void addDecoracion (Elements.Material material, double precio)
+        {
+            listDecoracion.Add(new Decoracion(material, precio));
+            nDecoracion++;
+        }
     }
 }
