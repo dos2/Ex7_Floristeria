@@ -9,11 +9,11 @@ namespace _7Ex_Floristeria.Models
     class floristeria
     {
         private string nombre;
-        private List<Arbol> listArbol;
-        private int nArbol=0;
-        private List<Flor> listFlor;
+        public List<Elements> Almacen = new List<Elements>();
+        private int nArbol = 0;
+        //private List<Flor> listFlor;
         private int nFlor = 0;
-        private List<Decoracion> listDecoracion;
+        //private List<Decoracion> listDecoracion;
         private int nDecoracion = 0;
 
 
@@ -32,19 +32,19 @@ namespace _7Ex_Floristeria.Models
 
         public void addArbol(double altura, double precio)
         {
-            listArbol.Add(new Arbol(altura, precio));
+            Almacen.Add(new Arbol(altura, precio));
             nArbol++;
         }
 
         public void addFlor(string color, double precio)
         {
-            listFlor.Add(new Flor(color, precio));
+            Almacen.Add(new Flor(color, precio));
             nFlor++;
         }
 
-        public void addDecoracion (Elements.Material material, double precio)
+        public void addDecoracion(Decoracion.Material material, double precio)
         {
-            listDecoracion.Add(new Decoracion(material, precio));
+            Almacen.Add(new Decoracion(material, precio));
             nDecoracion++;
         }
     }

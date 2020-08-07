@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _7Ex_Floristeria.Components
 {
-    interface Iprecio
+    interface Itype
     {
 
-        double Precio { get; set; }
+        int Type { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace _7Ex_Floristeria.Models
         private string color;
         public Flor (string color, double precio)
         {
-            this.setPrecio(precio);
+            base.Precio = precio;
             this.color = color;
             
         }

@@ -12,7 +12,7 @@ namespace _7Ex_Floristeria.Models
 
         public Arbol (double altura, double precio)
         {
-            this.setPrecio(precio);
+            base.Precio = precio;
             this.altura = altura;
         }
 

@@ -30,9 +30,23 @@ namespace _7Ex_Floristeria
             string nameFromdialogBox = InputFloristeria.myValue;
             nombreEmpresa.Content = nameFromdialogBox;
 
-            Decoracion deco = new Decoracion(Elements.Material.Plastico, 12);
-            Console.WriteLine("Material: {0} Precio: {1}", deco.getMaterial().ToString(), deco.getPrecio());
-            Console.WriteLine(nameFromdialogBox);
+            floristeria floristeria = new floristeria(nameFromdialogBox);
+            
+            floristeria.addDecoracion(Decoracion.Material.Plastico, 12);
+            floristeria.addArbol(12, 23);
+            foreach (Elements e in floristeria.Almacen)
+            {
+                Console.WriteLine(e.ToString());
+            }
+        }
+        private void TextBox_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            CreateDeco dialogBox = new CreateDeco();
+            dialogBox.ShowDialog();
+            string nameFromdialogBox = CreateDeco.myValue;
+            double priceFromdialogBox = CreateDeco.myPrice;
+            int materialFromdialogBox = CreateDeco.myMaterial;
+            Console.WriteLine("{0}{1}{2}",nameFromdialogBox,priceFromdialogBox,materialFromdialogBox);
         }
     }
 }

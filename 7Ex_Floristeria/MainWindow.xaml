@@ -36,7 +36,7 @@
                 <ListBox Name="menu" Background="Transparent" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Disabled" ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderBrush="{x:Null}" >
                     <TextBlock Text="1. Crear Árbol" FontSize="9"/>
                     <TextBlock Text="2. Crear Flor" FontSize="9"/>
-                    <TextBlock Text="3. Crear Decoración" FontSize="9"/>
+                    <TextBlock x:Name="CrearDeco" Text="3. Crear Decoración" FontSize="9" PreviewMouseDown="TextBox_MouseDown"/>
                     <TextBlock Text="4. Ver Stock" FontSize="9"/>
                 </ListBox>
             </StackPanel>
