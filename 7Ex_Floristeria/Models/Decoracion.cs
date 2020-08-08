@@ -10,18 +10,19 @@ namespace _7Ex_Floristeria.Models
     {
         private readonly Material _material;
         public enum Material { Madera, Plastico };
-        public Decoracion(Material material, double precio) 
+        public Decoracion(string name, Material material, double precio) 
         {
 
             this._material = material;
             base.Precio = precio;
             base.Type = 2;
+            base.Name = name;
         
         }
         public Material Material1 => _material;
         public override string ToString()
         {
-            return string.Format("Decoración de {0}. Precio: {1}€", _material,Precio);
+            return string.Format("Nombre: {2}. Material: {0}. Precio: {1}€", _material,Precio,Name);
         }
     }
 }

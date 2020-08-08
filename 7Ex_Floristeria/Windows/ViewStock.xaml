@@ -1,0 +1,35 @@
+﻿<Window x:Class="_7Ex_Floristeria.Windows.ViewStock"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7Ex_Floristeria.Windows"
+        mc:Ignorable="d"
+        Title="ViewStock" Height="450" Width="800">
+    <Grid Margin="0,0,0.333,-51.333">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF95A99F" Offset="0"/>
+                <GradientStop Color="#FF1B6842" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Flor" HorizontalAlignment="Left" Margin="59,164,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Árbol" HorizontalAlignment="Left" Margin="59,29,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+        <Label Content="Decoración" HorizontalAlignment="Left" Margin="59,296,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Grid HorizontalAlignment="Center" Height="102" Margin="0,66,0,0" VerticalAlignment="Top" Width="675">
+            <ItemsControl x:Name="itemArbol">
+
+            </ItemsControl>
+        </Grid>
+        <Grid HorizontalAlignment="Center" Height="102" Margin="0,199,0,0" VerticalAlignment="Top" Width="675">
+            <ItemsControl x:Name="itemFlor">
+
+            </ItemsControl>
+        </Grid>
+        <Grid HorizontalAlignment="Center" Height="102" Margin="0,330,0,0" VerticalAlignment="Top" Width="675">
+            <ItemsControl x:Name="itemDecoracion" HorizontalAlignment="Center" VerticalAlignment="Top">
+
+            </ItemsControl>
+        </Grid>
+    </Grid>
+</Window>

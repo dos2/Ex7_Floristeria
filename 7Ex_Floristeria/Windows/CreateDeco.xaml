@@ -18,7 +18,7 @@
         <Button x:Name="btnCreate" Content="Crear" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" Width="75" Background="#FFC1D8D7" Click="btnCreate_Click"/>
         <TextBox x:Name="Price" Height="23" Margin="0,130,95.333,0" TextWrapping="Wrap" Text="0,00" VerticalAlignment="Top" Width="85" UndoLimit="103" HorizontalAlignment="Right" TextAlignment="Right"/>
         <RadioButton x:Name="Wood" Content="Madera" HorizontalAlignment="Left" Margin="248,99,0,0" VerticalAlignment="Top" />
-        <RadioButton x:Name="Plastic" Content="Plastico" HorizontalAlignment="Left" Margin="159,99,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Plastic" Content="Plastico" HorizontalAlignment="Left" Margin="159,99,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="64,57,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Material" HorizontalAlignment="Left" Margin="64,94,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
         <Label Content="Precio" HorizontalAlignment="Left" Margin="64,127,0,0" VerticalAlignment="Top" FontWeight="Bold"/>

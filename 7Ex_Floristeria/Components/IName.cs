@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _7Ex_Floristeria
+namespace _7Ex_Floristeria.Components
 {
-    class ClasePrueba
+    interface IName
     {
+
+        string Name { get; set; }
+
     }
 }

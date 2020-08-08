@@ -55,14 +55,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Components\IName.cs" />
     <Compile Include="Components\Itype.cs" />
-    <Compile Include="CreateDeco.xaml.cs">
+    <Compile Include="Windows\CreateDeco.xaml.cs">
       <DependentUpon>CreateDeco.xaml</DependentUpon>
     </Compile>
-    <Compile Include="InputCreateFloristeria.xaml.cs">
+    <Compile Include="Windows\InputCreateFloristeria.xaml.cs">
       <DependentUpon>InputCreateFloristeria.xaml</DependentUpon>
     </Compile>
-    <Page Include="CreateDeco.xaml">
+    <Compile Include="Windows\ViewStock.xaml.cs">
+      <DependentUpon>ViewStock.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Windows\CreateDeco.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -76,12 +80,15 @@
     </Compile>
     <Compile Include="Components\Iprecio.cs" />
     <Compile Include="Models\Arbol.cs" />
-    <Compile Include="ClasePrueba.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="InputCreateFloristeria.xaml">
+    <Page Include="Windows\InputCreateFloristeria.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ViewStock.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -117,8 +124,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="celia_DSC2892-600x600.jpg" />
-    <Resource Include="home-mirasierra.jpg" />
+    <Resource Include="Imagenes\celia_DSC2892-600x600.jpg" />
+    <Resource Include="Imagenes\home-mirasierra.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
